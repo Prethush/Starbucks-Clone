@@ -7,10 +7,12 @@
 body {
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
   padding-bottom: 1rem;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .navbar {
-  width: 100%;
+  width: 100vw;
   box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
     0 0 2px rgb(0 0 0 / 7%);
 }
@@ -325,10 +327,6 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  html,
-  body {
-    overflow-x: hidden;
-  }
 
   .navbar-nav-left,
   .navbar-nav-right {
@@ -482,6 +480,7 @@ body {
   }
   .title-icon-container {
     justify-content: space-between;
+    cursor: pointer;
   }
 
   .footer-nav-list {
