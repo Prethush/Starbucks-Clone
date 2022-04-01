@@ -291,7 +291,12 @@ body {
 /* Media queires */
 
 @media screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   body.active {
+    width: 100vw;
     height: 100%;
     overflow: hidden;
   }
