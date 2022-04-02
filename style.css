@@ -321,8 +321,7 @@ body {
 /* Media queires */
 
 @media screen and (max-width: 768px) {
-  html,
-  body {
+  html {
     width: 100vw;
     overflow-x: hidden;
   }
@@ -496,7 +495,9 @@ body {
   }
   .guidelines {
     flex-direction: column;
+    align-items: flex-start;
   }
+
   .guidelines span {
     display: none;
   }
