@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-  width: 100vw;
+  width: 100%;
   box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
     0 0 2px rgb(0 0 0 / 7%);
 }
@@ -321,6 +321,11 @@ body {
 /* Media queires */
 
 @media screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
   body.active {
     width: 100vw;
     height: 100vh;
